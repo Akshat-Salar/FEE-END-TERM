@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="Comparison.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://kit.fontawesome.com/5183fd84c2.js" crossorigin="anonymous"></script>
+
+    <style>
+        td>img {
+            width: 100%;
+            height: 250px;
+            object-fit: contain;
+        }
+    </style>
+    <title>Title</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+<div class="Navbar">
+    <p><i class="fa-solid fa-box"></i> Free Shipping for orders over $50</p>   
+    <a href="">Call Us 123-456-7890</a>
+    <a href="FAQ.html">Help Center</a>
+    <a href="ContactUS.html">Contact</a>
+    <a href="AboutUS.html">About</a>  
+</div>
+
+<div class="Search">
+<h1>TechShed</h1>
+<a href=""><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+<a href=""><i class="fa-regular fa-heart"></i> Favorites</a>
+<a href="SignIn.html"><i class="fa-regular fa-user"></i> SignIn</a>   
+</div>
+
+<div class="categorybar">
+<a href="">Computers</a>
+<a href="">Tablets</a>
+<a href="">Drones & Cameras</a>
+<a href="">Mobile</a>
+<a href="">T.V & Home Cinema</a>
+<a href="">Shop all</a>
+<a href="">Wearable Tech</a>
+<a href="">Sale</a>
+<a href="">Audio</a>
+</div>
+
+
+    <h1 class="display-5 my-5 text-center">Compare Page</h1>
+    <div class="container">
+        <div class="col-md-9 mx-auto">
+            <table class="table">
+                <tr class="bg-light">
+                    <th>Select Product</th>
+                    <th width="300px">
+                        <select class="form-control" id="select1" onchange="item1(this.value)">
+                            <option value="0">-- Select Anyone --</option>
+                        </select>
+                    </th>
+                    <th width="300px">
+                        <select class="form-control" id="select2" onchange="item2(this.value)">
+                            <option value="0">-- Select Anyone --</option>
+                        </select>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Product Image</th>
+                    <td>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png"
+                            id="img1" alt=" ">
+                    </td>
+                    <td>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png"
+                            id="img2" alt=" ">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Product Price</th>
+                    <td id="price1">N/A</td>
+                    <td id="price2">N/A</td>
+                </tr>
+                <tr>
+                    <th>Product Description</th>
+                    <td id="desc1">N/A</td>
+                    <td id="desc2">N/A</td>
+                </tr>
+                <tr>
+                    <th>Product Brand</th>
+                    <td id="brand1">N/A</td>
+                    <td id="brand2">N/A</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+
+        
+<div class="footer">
+    <div><h1>Store Location</h1>
+        <p>500 Terry Francine Street San Francisco, CA 94158 info@mysite.com 123-456-7890 </p>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+    </div>
+   <div>
+    <h1>Shop</h1>
+    <ul>
+        <a href=""><li>SHOP ALL</li></a>
+        <a href=""><li>Computers</li></a>
+        <a href=""><li>Tablets</li></a>
+        <a href=""><li>Drones aand Cameras</li></a>
+        <a href=""><li>Audio</li></a>
+        <a href=""><li>Mobile</li></a>
+        <a href=""><li>T.V & Home Cinemas</li></a>
+        <a href=""><li>Wearable Tech</li></a>
+        <a href=""><li>Sale</li></a>
+    </ul>
+   </div>
+
+
+   <div>
+    <h1>Customer Support</h1>
+    <ul>
+    <a href=""><li>Contact Us</li></a>
+    <a href=""><li>Help Center</li></a>
+    <a href="C:\Users\Akshat\OneDrive\Desktop\FinalProject\AboutUS.html"><li>About Us</li></a>
+    <a href=""><li>Careers</li></a>
+</ul>
+   </div>
+
+
+   <div>
+    <h1>Policy</h1>
+    <ul>
+        <a href=""><li>Shipping & Return</li></a>
+        <a href=""><li>Terms & Condition</li></a>
+        <a href=""><li>Payments Method</li></a>
+        <a href=""><li>FAQ</li></a>
+    </ul>
+
+   </div>
+</div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js "></script>
+</body>
+
+</html>
+
+<script src="src/data.js"></script>
+<script src="Main.js"></script>

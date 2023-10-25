@@ -1,0 +1,74 @@
+body {
+  background-image:url("https://image.freepik.com/free-vector/social-media-doodle-internet-website-doodles-social-network-communication-online-web-hand-drawn-icons-set_102902-813.jpg") !important;
+}
+
+
+
+.checked{
+	background-color:  #ef7998;
+	color:white;
+
+}
+.para1{
+	text-align:center;
+}
+.app {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+/* STARS */
+.radio {
+  display: none;
+}
+.radio ~ span {
+  font-size: 3rem;
+  filter: grayscale(100);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.radio:checked ~ span {
+  filter: grayscale(0);
+  font-size: 4rem;
+}
+
+h1{
+	
+	text-align:center;
+}
+#re{
+	margin-top: 2%;
+	margin-left: 38%;
+}
+#or{
+	margin-left: 2%;
+	margin-top:2%;
+}
+
+#ff{
+	background-color:white;
+	height:10%;
+	width:55%;
+	margin-top:50px;
+	margin-left:23%;
+	margin-bottom:59px;
+	border-radius:50px;
+	border:solid black 5px;
+	
+}

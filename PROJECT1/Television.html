@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Television Store</title>
+    <link rel="stylesheet" href="Television.css">
+    <script src="https://kit.fontawesome.com/5183fd84c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+
+    <!-- NAVBAR -->
+    <div class="Navbar">
+        <p><i class="fa-solid fa-box"></i> Free Shipping for orders over $50</p>   
+        <a href="">Call Us 123-456-7890</a>
+        <a href="FAQ.html">Help Center</a>
+        <a href="ContactUS.html">Contact</a>
+        <a href="AboutUS.html">About</a>  
+</div>
+
+<div class="Search">
+    <h1>TechShed</h1>
+    <a href="deliver2.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+    <a href=""><i class="fa-regular fa-heart"></i> Favorites</a>
+    <a href="SignIn.html"><i class="fa-regular fa-user"></i> SignIn</a>   
+</div>
+
+<div class="categorybar">
+    <a href="">Computers</a>
+    <a href="Tablet.html">Tablets</a>
+    <a href="DRONES.html">Drones & Cameras</a>
+    <a href="Phone.html">Mobile</a>
+    <a href="Television.html">T.V & Home Cinema</a>
+    <a href="Category.html">Shop all</a>
+    <a href="">Wearable Tech</a>
+    <a href="">Sale</a>
+    <a href="Audio.html">Audio</a>
+</div>
+
+    <main>
+        <section class="product-list">
+            <article class="product">
+               <a href="TelivisionDetails.html"> <img src="https://m.media-amazon.com/images/I/71EGuVJ2oDL._SL1500_.jpg" alt="Television Model 1"></a>
+                <h2>Television Model 1</h2>
+                <p>Full HD, 42-inch LED TV with Smart Features</p>
+                <p class="price">$499.99</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </article>
+
+            <article class="product">
+                <img src="https://m.media-amazon.com/images/I/81qx8YtutXL._SL1500_.jpg" alt="Television Model 2">
+                <h2>Television Model 2</h2>
+                <p>4K Ultra HD, 55-inch OLED TV with Smart Features</p>
+                <p class="price">$799.99</p>
+                <button onclick="addToCart(2)">Add to Cart</button>
+            </article>
+
+            <article class="product">
+                <img src="https://m.media-amazon.com/images/I/81wfmPBEOpL._SL1500_.jpg" alt="Television Model 2">
+                <h2>Television Model 2</h2>
+                <p>4K Ultra HD, 55-inch OLED TV with Smart Features</p>
+                <p class="price">$799.99</p>
+                <button onclick="addToCart(3)">Add to Cart</button>
+            </article>
+
+            <article class="product">
+                <img src="https://m.media-amazon.com/images/I/71EGuVJ2oDL._SL1500_.jpg" alt="Television Model 2">
+                <h2>Television Model 2</h2>
+                <p>4K Ultra HD, 55-inch OLED TV with Smart Features</p>
+                <p class="price">$799.99</p>
+                <button onclick="addToCart(4)">Add to Cart</button>
+            </article>
+
+            <article class="product">
+                <img src="https://m.media-amazon.com/images/I/81qx8YtutXL._SL1500_.jpg" alt="Television Model 2">
+                <h2>Television Model 2</h2>
+                <p>4K Ultra HD, 55-inch OLED TV with Smart Features</p>
+                <p class="price">$799.99</p>
+                <button onclick="addToCart(5)">Add to Cart</button>
+            </article>
+
+
+            <article class="product">
+                <img src="https://m.media-amazon.com/images/I/81wfmPBEOpL._SL1500_.jpg" alt="Television Model 2">
+                <h2>Television Model 2</h2>
+                <p>4K Ultra HD, 55-inch OLED TV with Smart Features</p>
+                <p class="price">$799.99</p>
+                <button onclick="addToCart(6)">Add to Cart</button>
+            </article>
+
+
+            <article class="product">
+                <img src="https://m.media-amazon.com/images/I/71EGuVJ2oDL._SL1500_.jpg" alt="Television Model 2">
+                <h2>Television Model 2</h2>
+                <p>4K Ultra HD, 55-inch OLED TV with Smart Features</p>
+                <p class="price">$799.99</p>
+                <button onclick="addToCart(7)">Add to Cart</button>
+            </article>
+
+
+            <article class="product">
+                <img src="https://m.media-amazon.com/images/I/81wfmPBEOpL._SL1500_.jpg" alt="Television Model 2">
+                <h2>Television Model 2</h2>
+                <p>4K Ultra HD, 55-inch OLED TV with Smart Features</p>
+                <p class="price">$799.99</p>
+                <button onclick="addToCart(8)">Add to Cart</button>
+            </article>
+
+
+            <article class="product">
+                <img src="https://m.media-amazon.com/images/I/81qx8YtutXL._SL1500_.jpg" alt="Television Model 2">
+                <h2>Television Model 2</h2>
+                <p>4K Ultra HD, 55-inch OLED TV with Smart Features</p>
+                <p class="price">$799.99</p>
+                <button onclick="addToCart(5)">Add to Cart</button>
+            </article>
+
+            
+        </section>
+
+        <section class="cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items">
+                <!-- Cart items will be dynamically added here using JavaScript -->
+            </ul>
+            <p>Total: <span id="cart-total">$0.00</span></p>
+        </section>
+    </main>
+    <section class="brands">
+        <h2 class="centered">Shop by Brand</h2>
+        <div class="brand-logos">
+            <a href="brand-a.html"><img src="https://static.vecteezy.com/system/resources/previews/014/018/566/non_2x/samsung-logo-on-transparent-background-free-vector.jpg" alt="Brand A Logo"></a>
+            <a href="brand-b.html"><img src="data:image/png;base64,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" alt="Brand B Logo"></a>
+            <a href="brand-c.html"><img src="data:image/png;base64,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" alt="Brand C Logo"></a>
+            <!-- Add more brands and image links as needed -->
+        </div>
+    </section>
+    
+    
+
+
+    <div class="footer">
+        <div><h1>Store Location</h1>
+            <p>500 Terry Francine Street San Francisco, CA 94158 info@mysite.com 123-456-7890 </p>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+       <div>
+        <h1>Shop</h1>
+        <ul>
+            <a href=""><li>SHOP ALL</li></a>
+            <a href=""><li>Computers</li></a>
+            <a href=""><li>Tablets</li></a>
+            <a href=""><li>Drones aand Cameras</li></a>
+            <a href=""><li>Audio</li></a>
+            <a href=""><li>Mobile</li></a>
+            <a href=""><li>T.V & Home Cinemas</li></a>
+            <a href=""><li>Wearable Tech</li></a>
+            <a href=""><li>Sale</li></a>
+        </ul>
+       </div>
+    
+    
+       <div>
+        <h1>Customer Support</h1>
+        <ul>
+        <a href=""><li>Contact Us</li></a>
+        <a href=""><li>Help Center</li></a>
+        <a href="C:\Users\Akshat\OneDrive\Desktop\FinalProject\AboutUS.html"><li>About Us</li></a>
+        <a href=""><li>Careers</li></a>
+    </ul>
+       </div>
+    
+    
+       <div>
+        <h1>Policy</h1>
+        <ul>
+            <a href=""><li>Shipping & Return</li></a>
+            <a href=""><li>Terms & Condition</li></a>
+            <a href=""><li>Payments Method</li></a>
+            <a href=""><li>FAQ</li></a>
+        </ul>
+    
+       </div>
+    </div>
+
+    
+    <script src="Television.js"></script>
+
+
+
+
+</body>
+</html>

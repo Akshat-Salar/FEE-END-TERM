@@ -1,0 +1,71 @@
+.SignIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    
+}
+
+.forms {
+    padding: 20px; /* Adding some padding for spacing */
+    background-color: #000000;
+    height: auto;
+    width: 400px;
+    border: 5px solid #b8b8b8;
+    border-radius: 70px;
+    opacity: 0.8;
+
+    color: #fff9f9;
+}
+
+
+.container {
+    height: 700px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1524289286702-f07229da36f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZWxlY3Ryb25pYyUyMGRldmljZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+
+
+}
+
+
+form{
+    font-size: 40px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.end{
+    margin: 30px;
+    font-size: 20px;
+    float: left;
+    
+}
+
+.end a{
+    color: #fff9f9;
+}
+.end p{
+    float: right;
+    margin-left: 30px;
+    margin-top: -1px;
+}

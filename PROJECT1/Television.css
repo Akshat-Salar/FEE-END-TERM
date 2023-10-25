@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+.Navbar{
+    background-color: rgb(238, 230, 230);
+    top: 0;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    overflow: hidden;
+    height: 80px;
+    
+}
+/* NAVBAR PARAGRAPH STYLE*/
+.Navbar p{
+    font-size: 50px;
+    text-decoration-color: black;
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* NAVBAR For Links */
+.Navbar a{
+    margin-top: 19px;
+    font-size: 50px;
+    text-decoration-color: black;
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* NAVBAR LINKS ON HOVERING */
+.Navbar a:hover{
+    background-color: rgb(75, 76, 76);
+}
+
+/* NAVBAR FOR SEARCH POSITION */
+.Search{
+    overflow: hidden;
+    height: 80px;
+    position: relative;
+    
+}
+
+/* NAVBAR OF SEARCH HEADING */
+.Search h1{
+    font-size: 50px;
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    /* position: fixed; */
+   
+
+}
+/* NAVBAR OF SEARCH Links */
+.Search a{
+    margin-top: 19px;
+    font-size: 50px;
+    text-decoration-color: black;
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.Search a:hover{
+    background-color: rgb(75, 76, 76);
+}
+
+
+/* categorybar links */
+.categorybar{
+    background-color: #a19898;
+    position: relative;
+    width: 100%;
+    height: 40px;   
+}
+.categorybar a{
+    
+    padding: 16px;
+    font-size: 20px;
+    text-decoration-color: black;
+    color: #000000;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.product-list {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    height: 350px;
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 70%;
+    max-height: 400px;
+}
+
+.price {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cart {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+#cart-total {
+    font-weight: bold;
+    color: #007BFF;
+}
+.brands {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.brand-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-logos a {
+    margin: 0 10px;
+}
+
+.brand-logos img {
+    max-height: 100px; /* Adjust the height as needed */
+}
+
+
+
+
+
+.footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    clear: both; 
+    float: left;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 100px;
+    width: 100% ;
+}
+
+.footer > div{
+    display: block;
+    float: left;
+    min-width: 150px;width: auto;
+    height: auto;
+    /* border-style: dashed; */
+    margin: 30px;
+    justify-content: center;
+    justify-items: center;
+} 
+.footer > div > a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.footer > div > ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 13px;
+}
+
+.footer > div > ul > a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer > div > ul > a:hover {
+    text-decoration: underline;
+}

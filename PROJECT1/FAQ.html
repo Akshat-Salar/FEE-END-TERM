@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FAQ</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* *{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color:#060607;
+    font-family: "Montserrat", sans-serif;
+} */
+/*.logo{
+    width:100%;
+    height: 15%;
+    line-height:75px;
+    position:fixed;
+    padding:0px 75px;
+    background-image: linear-gradient(#033747,#012733);
+}*/
+li,a,button{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:#edf0f1;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    margin-bottom: 30px;
+
+}
+.logo{
+    cursor: pointer;
+}
+.navlinks{
+    list-style: none;
+}
+
+.navlinks li{
+    display: inline-block;
+    padding:0px 20px;
+}
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover{
+    color:#0088a9;
+}
+button{
+    padding:9px 25px;
+    border: none;
+    cursor:pointer;
+    transition:all 0.3s ease 0s;
+    border-radius:50px;
+    background-color: #0088a9;
+
+}
+button:hover{
+    background-color: #0088a9cc;
+}
+.slider img{
+   height: 500px;
+   width: 100%
+    
+}
+.logo{
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    
+}
+.logo span{
+    color:  rgb(32, 188, 227);
+}
+      body{
+        background: #171616;
+        padding-top: 20px;
+        font-family: monospace;
+      }
+      .header{
+        border-radius: 20px 20px 0px 0px;
+        padding: 10px 0px;
+        background: rgb(65, 124, 141);
+        color: #fff;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+      }
+      .faq-item{
+        margin-bottom: 40px;
+        margin-top: 40px;
+      }
+      .faq-body{
+        display: none;
+        font-size: 15px;
+        margin-top: 30px;
+        
+      }
+      .faq-wrapper{
+        width: 75%;
+        margin: 0 auto;
+      }
+      .faq-inner{
+        padding: 30px;
+        background: aliceblue;
+      }
+      .faq-plus{
+        float: right;
+        font-size: 1.4em;
+        line-height: 1em;
+        cursor: pointer;
+      }
+      hr{
+        background-color: #9b9b9b;
+      }
+      .footer {
+    background-color: #000;
+    margin-top: 40px;
+    color: #fff;
+    text-align: center;
+    clear: both;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
+}
+
+.footer div {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .footer div {
+        flex: 1;
+        width: 100%;
+    }
+}
+
+ul{
+    list-style: none;
+}
+    </style>
+  </head>
+
+  <body>
+    <div class="navbar"> 
+        <div class="logo">
+        Snap<span>D</span>igi</div>
+        <ul class="navlinks">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="categories.html">CATEGORIES</a></li>
+            <li><a href="demo.html">DEMO</a></li>
+
+        </ul>
+        <a href="signin.html"><button>LOG IN</button></a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="faq-wrapper">
+          <div class="header">
+            <h1>FAQs</h1>
+          </div>
+          <div class="faq-inner">
+            <div class="faq-item">
+              <h4>
+                How Do I Choose the Right Laptop for My Needs?                <span class="faq-plus">&plus;</span>
+              </h4>
+              <div class="faq-body">
+                Selecting the right laptop depends on factors like your usage (gaming, work, or general use), budget, preferred brand, and desired specifications. Consider CPU, RAM, storage, and other features to make an informed choice.              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h4>
+                What Should I Look for in a Smartphone Purchase?                <span class="faq-plus">&plus;</span>
+              </h4>
+              <div class="faq-body">
+                When buying a smartphone, consider factors such as the operating system (iOS or Android), camera quality, battery life, screen size, and the presence of features like 5G connectivity or water resistance.              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h4>
+                How Can I Extend the Lifespan of My Electronics?                <span class="faq-plus">&plus;</span>
+              </h4>
+              <div class="faq-body">
+                To prolong the life of your electronic devices, regularly update software, use protective cases and screen protectors, avoid overcharging batteries, and keep your gadgets clean and free of dust and debris.              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h4>
+                What's the Difference Between LED and OLED TVs?                <span class="faq-plus">&plus;</span>
+              </h4>
+              <div class="faq-body">
+                LED TVs use backlighting, while OLED TVs use individual organic light-emitting diodes. OLED TVs generally offer better contrast and color accuracy, but LED TVs are more budget-friendly.              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h4>
+                What Should I Do if My Electronics Require Repairs?                <span class="faq-plus">&plus;</span>
+              </h4>
+              <div class="faq-body">
+                If your electronic devices need repairs, contact the manufacturer for warranty information. If the warranty has expired, consider seeking help from certified repair centers or technicians to ensure quality service.              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+        <div>
+            <h1>Store Location</h1>
+            <p>500 Terry Francine Street<br>San Francisco, CA 94158<br>info@mysite.com<br>123-456-7890</p>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div>
+            <h1>Shop</h1>
+            <ul>
+                <a href=""><li>SHOP ALL</li></a>
+                <a href=""><li>Computers</li></a>
+                <a href=""><li>Tablets</li></a>
+                <a href=""><li>Drones and Cameras</li></a>
+                <a href=""><li>Audio</li></a>
+                <a href=""><li>Mobile</li></a>
+                <a href=""><li>T.V & Home Cinemas</li></a>
+                <a href=""><li>Wearable Tech</li></a>
+                <a href=""><li>Sale</li></a>
+            </ul>
+        </div>
+        <div>
+            <h1>Customer Support</h1>
+            <ul>
+                <a href=""><li>Contact Us</li></a>
+                <a href=""><li>Help Center</li></a>
+                <a href="C:\Users\Akshat\OneDrive\Desktop\FinalProject\AboutUS.html"><li>About Us</li></a>
+                <a href=""><li>Careers</li></a>
+            </ul>
+        </div>
+        <div>
+            <h1>Policy</h1>
+            <ul>
+                <a href=""><li>Shipping & Return</li></a>
+                <a href=""><li>Terms & Condition</li></a>
+                <a href=""><li>Payments Method</li></a>
+                <a href=""><li>FAQ</li></a>
+            </ul>
+        </div>
+    </div>
+    
+
+
+    <script type="text/javascript">
+      $(".faq-plus").on('click',function(){
+        $(this).parent().parent().find('.faq-body').slideToggle();
+      });
+    </script>
+  </body>
+
+</html>
